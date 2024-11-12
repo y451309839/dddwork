@@ -1,0 +1,14 @@
+{
+    "name": "huizi/dddwork",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qin.yi",
+            "email": "451309839@qq.com"
+        }
+    ],
+    "require": {
+        "huizi/dddwork-framework": "dev-main"
+    }
+}

@@ -1,0 +1,137 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "8affca09157a804fa17c9ba4d8e4550e",
+    "packages": [
+        {
+            "name": "huizi/dddwork",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/y451309839/dddwork.git",
+                "reference": "df5f0c058fe1a58c0455adb90b644bea9e7d0a58"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/y451309839/dddwork/zipball/df5f0c058fe1a58c0455adb90b644bea9e7d0a58",
+                "reference": "df5f0c058fe1a58c0455adb90b644bea9e7d0a58",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "workerman/workerman": "^4.1"
+            },
+            "default-branch": true,
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Huizi\\Dddwork\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "qin.yi",
+                    "email": "451309839@qq.com"
+                }
+            ],
+            "description": "A PHP development framework based on Domain-Driven Design (DDD)",
+            "support": {
+                "issues": "https://github.com/y451309839/dddwork/issues",
+                "source": "https://github.com/y451309839/dddwork/tree/main"
+            },
+            "time": "2024-11-11T10:13:50+00:00"
+        },
+        {
+            "name": "workerman/workerman",
+            "version": "v4.1.17",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/walkor/workerman.git",
+                "reference": "bb9e4b0c3fc3931a2ae38a1fb7a3ac09246efae9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/walkor/workerman/zipball/bb9e4b0c3fc3931a2ae38a1fb7a3ac09246efae9",
+                "reference": "bb9e4b0c3fc3931a2ae38a1fb7a3ac09246efae9",
+                "shasum": "",
+                "mirrors": [
+                    {
+                        "url": "https://mirrors.aliyun.com/composer/dists/%package%/%reference%.%type%",
+                        "preferred": true
+                    }
+                ]
+            },
+            "require": {
+                "php": ">=7.0"
+            },
+            "suggest": {
+                "ext-event": "For better performance. "
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Workerman\\": "./"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "walkor",
+                    "email": "walkor@workerman.net",
+                    "homepage": "http://www.workerman.net",
+                    "role": "Developer"
+                }
+            ],
+            "description": "An asynchronous event driven PHP framework for easily building fast, scalable network applications.",
+            "homepage": "http://www.workerman.net",
+            "keywords": [
+                "asynchronous",
+                "event-loop"
+            ],
+            "support": {
+                "email": "walkor@workerman.net",
+                "forum": "http://wenda.workerman.net/",
+                "issues": "https://github.com/walkor/workerman/issues",
+                "source": "https://github.com/walkor/workerman",
+                "wiki": "http://doc.workerman.net/"
+            },
+            "funding": [
+                {
+                    "url": "https://opencollective.com/workerman",
+                    "type": "open_collective"
+                },
+                {
+                    "url": "https://www.patreon.com/walkor",
+                    "type": "patreon"
+                }
+            ],
+            "time": "2024-11-07T07:48:34+00:00"
+        }
+    ],
+    "packages-dev": [],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "huizi/dddwork": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "2.3.0"
+}
